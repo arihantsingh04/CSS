@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>current color</title>
+    <style>
+        body{
+            color: purple;
+        }
+        div{
+            background-color: orange;
+            padding: 10px;
+            border: 2px solid currentColor;
+            box-shadow: 1px 1px 20px currentColor;
+        }
+        div p{
+            border: 2px solid currentColor;
+        }
+    </style>
+</head>
+<body>
+    <h2>The current color keyword</h2>
+    <p>this is some text in body part</p>
+    <div>
+        <p>text inside div</p>
+    </div>
+</body>
+</html>
